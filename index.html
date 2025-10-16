@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🎈Воздушные шары в Алматы</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+
+    <header class="hero-section" id="glavnaya">
+        
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1>Магазин воздушных<br>шаров в Алматы</h1>
+                <nav class="main-nav">
+                    <div class="nav-row">
+                        <a href="#katalog" class="nav-button">Варианты</a>
+                    </div>
+                    <div class="nav-row">
+                        <a href="#o-nas" class="nav-button">О НАС</a>
+                    </div>
+                    <div class="nav-row">
+                        <a href="#svyaz" class="nav-button">Связаться</a>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <section id="katalog" class="catalog-section">
+        <h2>Наш ассортимент шаров</h2>
+
+        <div class="product-grid">
+            
+            <div class="product-item item-1">
+                <div class="product-image-placeholder">
+                    <img src="images/balloon2.jpg" alt="Шар 2" class="open-modal">
+                </div>
+                <p>Фольгированные шары, которые идеально подойдут для дней рождения и других особых праздников. Элегантный и стильный дизайн для любого торжества.</p>
+            </div>
+
+            <div class="product-item item-2">
+                <div class="product-image-placeholder">
+                    <img src="images/balloon3.jpg" alt="Шар 3" class="open-modal">
+                </div>
+                <p>Шары для детей с изображениями любимых персонажей. Отлично подходят для детских праздников и игр.</p>
+            </div>
+            
+            <div class="product-item item-3">
+                <div class="product-image-placeholder">
+                    <img src="images/balloon4.jpg" alt="Шар 4" class="open-modal">
+                </div>
+                <p>Латексные шары, которые долго сохраняют форму и доступны в разных цветах. Можно заказать под индивидуальные предпочтения.</p>
+            </div>
+            
+            <div class="product-item item-4">
+                <div class="product-image-placeholder">
+                    <img src="images/balloon5.jpg" alt="Шар 5" class="open-modal">
+                </div>
+                <p>Шары с гелием и временем полета. Идеально подходят для спортивных мероприятий и праздников на спортивную тематику.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="o-nas" class="about-section">
+        <h2>О нас</h2>
+        <div class="about-content">
+            <div class="about-image-placeholder">
+                <img src="images/team-photo.jpg" alt="Фото нашей команды" class="open-modal"> <!-- Фото команды -->
+            </div>
+            <div class="about-text">
+                <h3>Информация о магазине</h3>
+                <p>Мы — ваш надежный партнер в мире воздушных шаров в Алматы. Хотя наша компания существует всего два года, мы уже успели зарекомендовать себя как надежный и профессиональный поставщик в этой области. Мы предлагаем широкий выбор воздушных шаров для любых событий — от свадеб до корпоративов, от дней рождения до торжеств. Наши шары — это не просто украшения, это часть вашего настроения и праздника. Мы внимательно относимся к каждому заказу, гарантируя высочайшее качество и отличный сервис.
+</p>
+            </div>
+        </div>
+    </section>
+
+    <footer id="svyaz" class="contact-section">
+    <h2>Связаться с нами</h2>
+    <div class="contact-links">
+        
+        <!-- Instagram батырмасы -->
+        <a href="https://instagram.com/king.flowers.kz" target="_blank" class="contact-button instagram">
+            <i class="fab fa-instagram"></i> Instagram - Чтобы увидеть больше ассортимент
+        </a>
+
+        <!-- WhatsApp батырмасы -->
+        <a href="https://wa.me/77754564418?text=Здравствуйте,%20я%20хотел(а)%20заказать%20шар" target="_blank" class="contact-button whatsapp">
+            <i class="fab fa-whatsapp"></i> WhatsApp - Чтобы заказать
+        </a>
+
+
+        
+        <a href="tel:+77754564418" class="contact-button phone">
+            <i class="fas fa-phone"></i> Телефон: +7 (775) 456-44-18
+        </a>
+        
+        <!-- "Показать 2ГИС" батырмасы -->
+        <button class="show-2gis-btn">Показать 2ГИС</button>
+        
+    </div>
+    <p class="copyright">&copy; 2024 Магазин воздушных шаров в Алматы. Все права защищены.</p>
+</footer>
+
+<!-- Модальді терезе -->
+<div id="myModal" class="modal">
+    <span class="close">&times;</span>
+    <img class="modal-content" id="img01">
+    <div id="caption"></div>
+</div>
+
+<!-- JavaScript файлын қосу -->
+<script src="script.js"></script>
+
+</body>
+</html>
